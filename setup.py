@@ -10,7 +10,7 @@ def readme(filename):
 
 setup(
     name="ua_eds_api",
-    version="1.0.0",
+    version="1.0.1",
     packages=find_packages(),
     author="Ryan Johannes-Bland",
     author_email="rjjohannesbland@email.arizona.edu",
@@ -22,5 +22,5 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/UACoreFacilitiesIT/UA-EDS-API",
     license="MIT",
-    install_requires=["requests", "json", "bs4"],
+    install_requires=["requests", "bs4"],
 )
